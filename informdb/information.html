@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Info</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>User Information:</legend>
+      <table>
+        <thead>
+          <tr>
+            <th>First Name:</th>
+            <th>Last Name:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="First Name"
+                placeholder="First"
+                id="FirstName">
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Last Name"
+                placeholder="Last"
+                id="LastName">
+            </td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <th>Telephone:</th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Email"
+                placeholder="@gmail.com"
+                id="Email">
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Telephone"
+                placeholder="###"
+                id="Telephone">
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <p>What will be your most convinient form of contact</p>
+            </th>
+          </tr>
+          <tr>
+            <td><input type="radio" name="Phone" id="Phone">Phone</td>
+            <td><input type="radio" name="Email2" id="Email2">Email</td>
+          </tr>
+        </tbody>
+        <tr>
+          <th colspan="2">Contact Time:</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <select name="Time" id="TimeFrame" multiple>
+              <option value="Morning">Morning</option>
+              <option value="Noon">Noon</option>
+              <option value="Night">Night</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="submit">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Message for us</legend>
+      <table>
+        <input type="text" name="message" id="message">
+      </table>
+    </fieldset>
+  </body>
+</html>
